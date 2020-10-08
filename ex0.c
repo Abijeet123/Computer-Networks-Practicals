@@ -1,3 +1,13 @@
+/*
+	Author : Abijeet Shyam
+	Experiment no : 1
+	Objective : Write a program in C, using system calls, to create a text file by taking input from the
+	            user for the file name and also for the contents of the file. After the file is created, copy the
+		    contents of the created file to another file whose file name should also be provided by the
+		    user.
+
+*/
+
 #include<stdio.h>
 #include<fcntl.h>
 #include "syscall.h"
